@@ -1,16 +1,65 @@
-# React + Vite
+# Stock Manager React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A supermarket inventory management application built with React and Vite.
 
-Currently, two official plugins are available:
+This project allows users to manage products, monitor stock levels, organize inventory by category, and track inventory statistics through a dashboard.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
 
-## React Compiler
+- **Product management:** Add, edit, and delete products.
+- **Form validation:** Validate product names, prices, quantities, and categories.
+- **Stock monitoring:** Identify available products, low-stock products, and out-of-stock products.
+- **Search:** Find products by name.
+- **Filtering:** Filter products by stock status and category.
+- **Sorting:** Sort products by name, price, and quantity.
+- **Dashboard:** Display inventory statistics and total inventory value.
+- **Data persistence:** Save product data in the browser using localStorage.
+- **Responsive interface:** Adapt the application to different screen sizes.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Technologies Used
 
-## Expanding the ESLint configuration
+- React
+- JavaScript
+- HTML5
+- CSS3
+- Vite
+- ESLint
+- Browser localStorage
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/mayo-the-great/stock-manager-react.git
+```
+
+Navigate to the project directory:
+
+```bash
+cd stock-manager-react
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+Open the local URL displayed in your terminal.
+
+## Project Status
+
+The frontend application is functional. Future improvements may include backend integration, database storage, user authentication, and inventory prediction features.
+
+## Author
+
+MAYO NGAMBI
+
+GitHub: mayo-the-great
